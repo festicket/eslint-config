@@ -8,8 +8,7 @@
     "url": "https://github.com/festicket/festicket-eslint"
   },
   "homepage": "https://github.com/festicket/festicket-eslint",
-  "peerDependencies": {
-    "eslint": "^4.16.0",
+  "dependencies": {
     "eslint-config-airbnb": "^16.1.0",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-config-prettier": "^2.9.0",
@@ -17,5 +16,8 @@
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-prettier": "^2.5.0",
     "eslint-plugin-react": "^7.5.1"
+  },
+  "peerDependencies": {
+    "eslint": "^4.16.0"
   }
 }
