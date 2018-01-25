@@ -22,7 +22,13 @@ module.exports = {
     ],
 
     // https://github.com/prettier/eslint-plugin-prettier
-    'prettier/prettier': 'error'
+    'prettier/prettier': [
+      'error',
+      {
+        singleQuote: true,
+        trailingComma: 'all'
+      }
+    ]
   },
   plugins: [
     // https://github.com/prettier/eslint-plugin-prettier
