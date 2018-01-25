@@ -1,5 +1,10 @@
 module.exports = {
-  extends: 'airbnb',
+  extends: [
+    "airbnb",
+    // Turns off all rules that are unnecessary or might conflict with Prettier.
+    // https://github.com/prettier/eslint-config-prettier
+    "prettier"
+  ]
   rules: {
     // When there is only a single export from a module, prefer using default export over named export.
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/prefer-default-export.md
@@ -15,5 +20,12 @@ module.exports = {
       'error',
       { functions: false, classes: false, variables: true }
     ]
-  }
+
+    // https://github.com/prettier/eslint-plugin-prettier
+    "prettier/prettier": "error",
+  },
+  plugins: [
+    // https://github.com/prettier/eslint-plugin-prettier
+    "prettier"
+  ],
 };
