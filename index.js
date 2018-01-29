@@ -14,6 +14,9 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-key.md
     'react/jsx-key': 'error',
 
+    // Prefer to use ES2015 default params for functional components.
+    'react/require-default-props': 'off'
+
     // This rule will warn when it encounters a reference to an identifier that has not yet been declared.
     // https://eslint.org/docs/rules/no-use-before-define
     'no-use-before-define': [
