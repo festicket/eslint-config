@@ -2,10 +2,19 @@
   "name": "@festicket/eslint-config",
   "version": "1.1.5",
   "description": "Festicket's ESLint config, extending AirBnB",
-  "main": "index.js",
+  "main": ".eslintrc.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/festicket/festicket-eslint"
+  },
+  "scripts": {
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "eslint --fix",
+      "git add"
+    ]
   },
   "homepage": "https://github.com/festicket/festicket-eslint",
   "dependencies": {
@@ -19,5 +28,11 @@
   },
   "peerDependencies": {
     "eslint": "^4.16.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^6.1.0",
+    "prettier": "^1.10.2"
   }
 }
