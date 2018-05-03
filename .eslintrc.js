@@ -3,7 +3,7 @@ module.exports = {
     'airbnb',
     // Turns off all rules that are unnecessary or might conflict with Prettier.
     // https://github.com/prettier/eslint-config-prettier
-    'prettier'
+    'prettier',
   ],
   rules: {
     // When there is only a single export from a module, prefer using default export over named export.
@@ -21,7 +21,7 @@ module.exports = {
     // https://eslint.org/docs/rules/no-use-before-define
     'no-use-before-define': [
       'error',
-      { functions: false, classes: false, variables: true }
+      { functions: false, classes: false, variables: true },
     ],
 
     // https://github.com/prettier/eslint-plugin-prettier
@@ -29,12 +29,12 @@ module.exports = {
       'error',
       {
         singleQuote: true,
-        trailingComma: 'es5'
-      }
-    ]
+        trailingComma: 'es5',
+      },
+    ],
   },
   plugins: [
     // https://github.com/prettier/eslint-plugin-prettier
-    'prettier'
-  ]
+    'prettier',
+  ],
 };
