@@ -1,6 +1,6 @@
 {
   "name": "@festicket/eslint-config",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Festicket's ESLint config, extending AirBnB",
   "main": ".eslintrc.js",
   "repository": {
