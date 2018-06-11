@@ -8,7 +8,8 @@
     "url": "https://github.com/festicket/festicket-eslint"
   },
   "scripts": {
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "lint": "eslint index.js .eslintrc.js --fix"
   },
   "lint-staged": {
     "*.{js,jsx}": [
