@@ -5,6 +5,7 @@ module.exports = {
     // Turns off all rules that are unnecessary or might conflict with Prettier.
     // https://github.com/prettier/eslint-config-prettier
     'prettier',
+    'prettier/react',
   ],
   rules: {
     // When there is only a single export from a module, prefer using default export over named export.
