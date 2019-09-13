@@ -1,6 +1,7 @@
 module.exports = {
   extends: [
     'airbnb',
+    'airbnb/hooks',
     // Turns off all rules that are unnecessary or might conflict with Prettier.
     // https://github.com/prettier/eslint-config-prettier
     'prettier',
