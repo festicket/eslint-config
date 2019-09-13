@@ -15,6 +15,9 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-key.md
     'react/jsx-key': 'error',
 
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-props-no-spreading.md
+    'react/jsx-props-no-spreading': 'off',
+
     // Prefer to use ES2015 default params for functional components.
     'react/require-default-props': 'off',
 
