@@ -5,6 +5,8 @@ module.exports = {
     // Turns off all rules that are unnecessary or might conflict with Prettier.
     // https://github.com/prettier/eslint-config-prettier
     'prettier',
+    'prettier/babel',
+    'prettier/flowtype',
     'prettier/react',
   ],
   rules: {
@@ -15,6 +17,18 @@ module.exports = {
     // Validate JSX has key prop when in array or iterator
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-key.md
     'react/jsx-key': 'error',
+
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-access-state-in-setstate.md
+    'react/no-access-state-in-setstate': 'off',
+
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/static-property-placement.md
+    'react/static-property-placement': 'off',
+
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/state-in-constructor.md
+    'react/state-in-constructor': 'off',
+
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/destructuring-assignment.md
+    'react/destructuring-assignment': 'off',
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-props-no-spreading.md
     'react/jsx-props-no-spreading': 'off',
@@ -41,5 +55,7 @@ module.exports = {
   plugins: [
     // https://github.com/prettier/eslint-plugin-prettier
     'prettier',
+    'babel',
+    'flowtype',
   ],
 };
