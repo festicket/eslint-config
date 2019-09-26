@@ -1,9 +1,14 @@
 module.exports = {
+  parser: 'babel-eslint',
   extends: [
     'airbnb',
+    'airbnb/hooks',
     // Turns off all rules that are unnecessary or might conflict with Prettier.
     // https://github.com/prettier/eslint-config-prettier
     'prettier',
+    'prettier/flowtype',
+    'prettier/react',
+    'prettier/babel',
   ],
   rules: {
     // When there is only a single export from a module, prefer using default export over named export.
@@ -36,5 +41,7 @@ module.exports = {
   plugins: [
     // https://github.com/prettier/eslint-plugin-prettier
     'prettier',
+    'flowtype',
+    'babel',
   ],
 };
