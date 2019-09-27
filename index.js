@@ -18,8 +18,8 @@ module.exports = {
 
     // When there is only a single export from a module, prefer using default export over named export.
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/prefer-default-export.md
-
     'import/prefer-default-export': 'off',
+
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/static-property-placement.md
 
     'react/static-property-placement': ['off'],
