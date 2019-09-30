@@ -14,7 +14,11 @@ module.exports = {
     'flowtype/use-flow-type': 1,
 
     // We need to disable the rule here to get around @{foldername} alias'
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-extraneous-dependencies.md
     'import/no-extraneous-dependencies': 0,
+
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-useless-path-segments.md
+    'import/no-useless-path-segments': 0,
 
     // When there is only a single export from a module, prefer using default export over named export.
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/prefer-default-export.md
