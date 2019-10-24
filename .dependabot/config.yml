@@ -1,0 +1,7 @@
+version: 1
+update_configs:
+  - package_manager: "javascript"
+    # where dependabot looks for package.json and lock file
+    directory: "/"
+    # opens pull requests as soon as a new package version is released
+    update_schedule: "live"
