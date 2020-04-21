@@ -37,12 +37,12 @@
   },
   "peerDependencies": {
     "eslint": "^6.3.0",
-    "prettier": "^1.18.2"
+    "prettier": "^2.0.5"
   },
   "devDependencies": {
     "eslint": "^6.5.1",
     "husky": "^3.0.5",
     "lint-staged": "^9.4.2",
-    "prettier": "^1.18.2"
+    "prettier": "^2.0.5"
   }
 }
